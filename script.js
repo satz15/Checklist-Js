@@ -5,7 +5,7 @@ const one = document.getElementById('one');
 console.log(firstTitle);
 
 firstTitle.addEventListener('change', () => {
-    const firstTitleEl = firstTitle.checked; // Use the `checked` property for checkboxes
+    const firstTitleEl = firstTitle.checked; 
     console.log(firstTitleEl);
 
     if (firstTitleEl) {
